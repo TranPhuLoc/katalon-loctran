@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 01,Chrome 125.0.0.0,,,17-06-2024 00:41:06,17-06-2024 00:41:17,11.236s,PASSED
+,,,,,,,
+Test Cases/WEB/WEB01,Chrome 125.0.0.0,,,17-06-2024 00:41:07,17-06-2024 00:41:17,10.874s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,17-06-2024 00:41:07,17-06-2024 00:41:11,3.628s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,17-06-2024 00:41:11,17-06-2024 00:41:17,6.329s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,17-06-2024 00:41:17,17-06-2024 00:41:17,0.397s,PASSED

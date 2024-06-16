@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 01,Chrome 125.0.0.0,,,17-06-2024 01:38:48,17-06-2024 01:38:56,7.668s,FAILED
+,,,,,,,
+Test Cases/WEB/WEB01,Chrome 125.0.0.0,,,17-06-2024 01:38:49,17-06-2024 01:38:56,7.261s,FAILED
+"openBrowser("""")",Chrome 125.0.0.0,,,17-06-2024 01:38:49,17-06-2024 01:38:52,3.361s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,17-06-2024 01:38:52,17-06-2024 01:38:55,2.945s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,17-06-2024 01:38:55,17-06-2024 01:38:56,0.469s,PASSED
+"takeAreaScreenshotAsCheckpoint(""Visual_test_pic"", null)",Chrome 125.0.0.0,,,17-06-2024 01:38:56,17-06-2024 01:38:56,0.087s,FAILED
