@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 01,,,,16-06-2024 23:40:17,16-06-2024 23:40:23,5.662s,PASSED
+,,,,,,,
+Test Cases/API/API01,,,,16-06-2024 23:40:18,16-06-2024 23:40:23,5.179s,PASSED
+"sendRequest(findTestObject(""API/Get User""))",,,,16-06-2024 23:40:18,16-06-2024 23:40:23,4.535s,PASSED
