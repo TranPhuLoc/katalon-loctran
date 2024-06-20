@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>WEB03</name>
+   <name>WIN</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>1cacc626-38c6-4d65-98c2-bcaded4c1dce</testCaseGuid>
+   <testCaseGuid>8df357d3-c40f-4194-8f1f-bb6514d24e7b</testCaseGuid>
 </TestCaseEntity>
