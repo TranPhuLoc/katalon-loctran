@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Visual" time="100.924" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Visual" tests="1" failures="0" errors="0" time="100.924" skipped="0" timestamp="19-06-2024T00:39:19" hostname="Loc.PhuTran - DESKTOP-KNAU10Q" id="Test Suites/API/Test Suite Visual">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Documents\\Certs\\Katalon\\katalon-loctran\\Reports\\20240619_003823\\API\\Test Suite Visual\\20240619_003824"/>
+         <property name="logFiles" value="D:\\Documents\\Certs\\Katalon\\katalon-loctran\\Reports\\20240619_003823\\API\\Test Suite Visual\\20240619_003824\\execution0.log"/>
+         <property name="attachments" value="D:\Documents\Certs\Katalon\katalon-loctran\Reports\20240619_003823\API\Test Suite Visual\20240619_003824\keyes\keyes-advertisements.png"/>
+         <property name="hostName" value="Loc.PhuTran - DESKTOP-KNAU10Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.64"/>
+         <property name="sessionId" value="c2b149656579557c506b0e7eb1ab58f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WEB/Visual Checkpoints" time="99.97" classname="Test Cases/WEB/Visual Checkpoints" status="PASSED">
+         <system-out><![CDATA[19-06-2024T00:39:20 - [TEST_CASE][PASSED] - Test Cases/WEB/Visual Checkpoints: Test Cases/WEB/Visual Checkpoints
+
+19-06-2024T00:39:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-06-2024T00:39:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-06-2024T00:39:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-06-2024T00:39:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-06-2024T00:39:45 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+19-06-2024T00:39:52 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+19-06-2024T00:39:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+19-06-2024T00:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+19-06-2024T00:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+19-06-2024T00:40:06 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+19-06-2024T00:40:06 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+19-06-2024T00:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+19-06-2024T00:40:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+19-06-2024T00:40:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+19-06-2024T00:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+19-06-2024T00:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+19-06-2024T00:40:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+19-06-2024T00:40:41 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+19-06-2024T00:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+19-06-2024T00:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+19-06-2024T00:40:45 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is double clicked on
+
+19-06-2024T00:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is double clicked on
+
+19-06-2024T00:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+19-06-2024T00:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+19-06-2024T00:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_20")): Object: 'Object Repository/Page_CURA Healthcare Service/td_20' is clicked on
+
+19-06-2024T00:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_20' is clicked on
+
+19-06-2024T00:40:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Test"): Text 'Test' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+19-06-2024T00:40:56 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+19-06-2024T00:40:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+19-06-2024T00:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+19-06-2024T00:40:59 - [TEST_STEP][PASSED] - takeAreaScreenshotAsCheckpoint("advertisements", new org.openqa.selenium.Rectangle(50, 25, 150, 100)): Taking screenshot successfully
+
+19-06-2024T00:41:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T00:41:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\Documents\Certs\Katalon\katalon-loctran\Reports\20240619_003823\API\Test Suite Visual\20240619_003824\keyes\keyes-advertisements.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2024T00:39:19 - [TEST_SUITE][PASSED] - Test Suite Visual: Test Cases/WEB/Visual Checkpoints]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
